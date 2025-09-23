@@ -41,3 +41,40 @@
 .home a {
   text-decoration: none;
 }
+
+.text {
+  display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  padding: 30px;
+  /* margin: 0 auto; */
+  /* background-color: aliceblue; */
+}
+
+.text1 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: start;
+  /* justify-content: start; */
+  /* width: 10%; */
+  height: 1px;
+}
+
+.wa {
+  display: flex;
+  text-align: center;
+  justify-content: end;
+  align-items: end;
+}
+
+.wa-img {
+  /* justify-content: end; */
+  /* align-items: end; */
+  margin: 1px;
+  width: 50%;
+  height: auto;
+  background-color: aliceblue;
+}
