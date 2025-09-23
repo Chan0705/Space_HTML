@@ -1,0 +1,17 @@
+.box {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: start;
+  align-items: center;
+}
+
+.box1 {
+  font-size: large;
+  font-weight: bold;
+  padding: 1px;
+  margin: 1px;
+}
+
+.home a {
+  text-decoration: none;
+}
