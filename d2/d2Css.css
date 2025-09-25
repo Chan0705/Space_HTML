@@ -1,0 +1,77 @@
+.box {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: start;
+  align-items: center;
+  /* height: 100vh; */
+}
+
+.box1 {
+  font-size: large;
+  font-weight: bold;
+  padding: 1px;
+  margin: 1px;
+  border: 1px solid black;
+  border-radius: 10%;
+  margin: 5px;
+  padding: 5px;
+  background-color: aliceblue;
+}
+
+.box1:hover {
+  background-color: chartreuse;
+}
+
+.box1 a {
+  text-decoration: none;
+}
+
+.box1 a:hover {
+  color: red;
+}
+
+.home a {
+  text-decoration: none;
+}
+
+/* 위에까지 헤더 */
+
+.div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.div1 {
+  display: flex;
+  /* flex-direction: column; */
+  /* align-items: center; */
+  gap: 10px;
+}
+
+.red {
+  background-color: red;
+  width: 500px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.blue {
+  background-color: blue;
+  height: 100px;
+  /* w-50% => 브라우저의 50%차지 */
+  width: 500px;
+  float: left;
+}
+
+.green {
+  margin-top: 10px;
+  background-color: green;
+  height: 100px;
+  width: 500px;
+  float: right;
+}
+
+.img1 {
+  visibility: hidden;
+}

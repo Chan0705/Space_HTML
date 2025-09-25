@@ -1,15 +1,14 @@
 <!DOCTYPE html>
-<html lang="kr">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style1.css" />
-    <title>web</title>
+    <link rel="stylesheet" href="d2Css.css" />
+    <title>cssBox</title>
   </head>
   <body>
     <header>
       <div class="home">
-        <h1><a href="web.html">Home</a></h1>
+        <h1><a href="/web.html">Home</a></h1>
         <h3>학습</h3>
       </div>
       <nav class="box">
@@ -21,15 +20,23 @@
         <div class="box1"><a href="/d2/table.html">tableSave</a></div>
         <div class="box1"><a href="/d2/tag_select.html">select</a></div>
         <div class="box1"><a href="/d2/co.html">boxCss</a></div>
-        <div class="box1"><a href="/d2/navHtml.html">navHtml</a></div>
-        <div class="box1"><a href="/d3/float_Text.html">floatText</a></div>
-        <div class="box1"><a href="/d3/rayOut.html">rayOut</a></div>
-        <div class="box1"><a href="/d3/rayOut2.html">rayOut2</a></div>
-        <div class="box1"><a href="/d3/box.html">box</a></div>
-        <div class="box1"><a href="/d3/test.html">test</a></div>
       </nav>
       <hr />
     </header>
-    <div>body임</div>
+    <!-- margin => 가로 마진은 큰쪽을 따라가고 세로는 영향x -->
+    <div class="div">
+      <div class="red">b1</div>
+      <div class="blue">b2</div>
+      <div class="green">green</div>
+    </div>
+    <hr />
+    <!-- 수평일 때 마진은 각 계산 -->
+    <!-- inline => 아무 속성없이 사용 -->
+    <!-- inline-block => 속성(w/h) 있을 때 사용 -->
+    <div class="div">
+      <div class="red">b1</div>
+      <div class="blue">b2</div>
+      <div class="green">green</div>
+    </div>
   </body>
 </html>

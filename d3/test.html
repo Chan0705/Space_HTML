@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Box-Sizing 비교</title>
+    <style>
+      .container {
+        display: flex;
+        gap: 20px;
+        padding: 20px;
+      }
+
+      .box {
+        border: 5px solid gold;
+        padding: 20px;
+        background-color: lightgray;
+        font-weight: bold;
+        color: black;
+      }
+
+      .content-box {
+        box-sizing: content-box;
+        width: 200px;
+        height: 100px;
+        background-color: red;
+      }
+
+      .border-box {
+        box-sizing: border-box;
+        width: 200px;
+        height: 100px;
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="home">
+        <h1><a href="/web.html">Home</a></h1>
+      </div>
+      <hr />
+    </header>
+    <h2>Box-Sizing 비교</h2>
+    <div class="container">
+      <div class="box content-box">content-box</div>
+      <div class="box border-box">border-box</div>
+    </div>
+    <div>
+      두 박스 모두 width: 200px, height: 100px로 설정 <br />
+      content-box는 패딩과 테두리가 추가로 더해져서 실제 크기가 커짐 <br />
+      border-box는 패딩과 테두리를 포함해서 정확히 200x100px로 유지됨
+    </div>
+  </body>
+</html>

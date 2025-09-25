@@ -1,0 +1,88 @@
+.box {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: start;
+  align-items: center;
+  /* height: 100vh; */
+}
+
+.box1 {
+  font-size: large;
+  font-weight: bold;
+  padding: 1px;
+  margin: 1px;
+}
+
+.home a {
+  text-decoration: none;
+}
+
+.div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.table {
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid black;
+  margin: 1px;
+  padding: 1px;
+  width: 240px;
+  height: 200px;
+  display: flex;
+}
+
+.td {
+  width: 40px;
+  height: 50%;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.td1 {
+  width: 40px;
+  height: 50%;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.td2 {
+  width: 40px;
+  height: 50%;
+  border: 1px solid black;
+  text-align: center;
+  flex-direction: column;
+}
+
+.h2 {
+  border: 2px solid black;
+  margin: 1px;
+  padding: 1px;
+  text-align: center;
+  background-color: rgb(241, 240, 255);
+  width: 293px;
+  height: auto;
+}
+
+.tableStyle {
+  border: 2px solid black;
+  margin: 1px;
+  padding: 1px;
+  text-align: center;
+  background-color: aliceblue;
+  height: 300px;
+  width: 300px;
+  /* 선을 하나로 통합하기 */
+  border-collapse: collapse;
+}
+
+.tdstyle {
+  border: 1px solid black;
+  margin: 5px;
+  padding: 5px;
+  background-color: rgb(183, 243, 243);
+  font-weight: bold;
+}
