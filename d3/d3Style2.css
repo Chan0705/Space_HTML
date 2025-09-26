@@ -38,6 +38,56 @@
 }
 /* 여기까지 헤더 영역 */
 
+/* login div */
+
+div {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+}
+
+div h2 {
+  color: white;
+  font-size: 30px;
+  text-shadow: 2px 2px 5px black;
+}
+
+ul li {
+  overflow: hidden;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  line-height: 40px;
+}
+
+ul li label {
+  font-size: 20px;
+  color: blueviolet;
+  float: left;
+  width: 100px;
+  text-align: right; /* 라벨 오른쪽 정렬 */
+  padding-right: 10px;
+}
+
+ul li input {
+  width: 200px;
+  height: 30px;
+  float: right;
+}
+
+ul li button {
+  justify-content: center;
+  margin-top: 10px;
+  float: right;
+  width: 100px;
+}
+
+ul li button:hover {
+  background-color: gray;
+  color: white;
+}
+
 /* footer */
 .hr {
   clear: both;

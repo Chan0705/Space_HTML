@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="kr">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style1.css" />
-    <title>web</title>
+    <link rel="stylesheet" href="d3Style2.css" />
+    <title>search</title>
   </head>
   <body>
     <header>
@@ -29,15 +29,19 @@
         <div class="box1"><a href="/d3/test.html">test</a></div>
         <div class="box1"><a href="/d3/search.html">search</a></div>
         <div class="box1"><a href="/d3/login.html">login</a></div>
-        <div class="box1"><a href="/d4/viewport.html">viewport</a></div>
-        <div class="box1"><a href="/d4/mdq1.html">mq1</a></div>
-        <div class="box1"><a href="/d4/mdq2.html">mq2</a></div>
-        <div class="box1"><a href="/d4/child.html">선택자</a></div>
-        <div class="box1"><a href="/d4/child2.html">선택자 사용</a></div>
-        <div class="box1"><a href="/d4/uiEl.html">form태그 추가</a></div>
       </nav>
       <hr />
     </header>
-    <div>body임</div>
+    <div>
+      <!-- action: 서버패이지, url method(전송방식) - get(주소 표시줄에 표시), post(주소 표시줄에서 미표시) -->
+      <form action="search.jsp" method="get">
+        <!-- input 태그 타입 설정 => text(한줄 글상자), text-area(여러줄), button, ex.. -->
+        <input type="text" name="keyword" />
+        <!-- type: submit => 폼의 내용을 서버로 전달 -->
+        <!-- value: 화면에 표시해주는 값 -->
+        <input type="submit" value="검색" />
+        <button type="button">검색</button>
+      </form>
+    </div>
   </body>
 </html>

@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="kr">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style1.css" />
-    <title>web</title>
+    <link rel="stylesheet" href="d3Style2.css" />
+    <title>로그인</title>
   </head>
   <body>
     <header>
@@ -29,15 +29,26 @@
         <div class="box1"><a href="/d3/test.html">test</a></div>
         <div class="box1"><a href="/d3/search.html">search</a></div>
         <div class="box1"><a href="/d3/login.html">login</a></div>
-        <div class="box1"><a href="/d4/viewport.html">viewport</a></div>
-        <div class="box1"><a href="/d4/mdq1.html">mq1</a></div>
-        <div class="box1"><a href="/d4/mdq2.html">mq2</a></div>
-        <div class="box1"><a href="/d4/child.html">선택자</a></div>
-        <div class="box1"><a href="/d4/child2.html">선택자 사용</a></div>
-        <div class="box1"><a href="/d4/uiEl.html">form태그 추가</a></div>
       </nav>
       <hr />
     </header>
-    <div>body임</div>
+    <div>
+      <h2>Login</h2>
+      <form action="login.php" method="post">
+        <ul>
+          <li>
+            <label for="userid">ID</label>
+            <input type="text" name="userid" id="userid" />
+          </li>
+          <li>
+            <label for="pw">PW</label>
+            <input type="text" name="pw" id="pw" />
+          </li>
+          <li>
+            <button type="submit">로그인</button>
+          </li>
+        </ul>
+      </form>
+    </div>
   </body>
 </html>
